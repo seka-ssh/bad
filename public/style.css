@@ -1,0 +1,61 @@
+*{
+    font-family: sans-serif;
+    font-weight: 200;
+}
+body{
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+h2{
+    text-align: center;
+    margin-top: 20px;
+    color: rgb(127, 127, 243);
+}
+label{
+    display: block;
+    margin-top: 20px;
+    
+}
+label input{
+    padding: 4px;
+    width: 85%;
+    height: 15px;
+    border-radius: 5px;
+    border:none;
+    background-color: rgb(108, 143, 246);
+    
+}
+label  input:hover{
+    cursor: pointer;
+    background-color: rgb(199, 199, 242);
+    
+    
+}
+button{
+    width: 80%;
+    height: 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(7, 68, 252);
+    color: white;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.container-class{
+    width: 55vh;
+    height: 60vh;
+    border: 3px solid;
+    border-radius: 5px;
+    border-color: rgb(7, 68, 252);
+    padding: 0;
+    display: flex;               /* Add this */
+          flex-direction: column;/* Add this */
+    justify-content: center;     /* Add this */
+    align-items: center;         /* Add this */
+    margin: auto;                /* Add this */
+    background: #fff;            /* Optional: makes the form stand out */
+}
